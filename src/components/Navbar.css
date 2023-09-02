@@ -1,0 +1,10 @@
+
+#menus.menu{
+    transition: 0.5ms;
+}
+#menus:hover .menu{
+    filter: blur(5px);
+}
+#menus:hover .menu:hover{
+    filter: blur(0px);
+}
