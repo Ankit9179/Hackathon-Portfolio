@@ -24,10 +24,10 @@ const Navbar = () => {
             id="menus"
             className=" hidden md:flex gap-7 text-white cursor-pointer"
           >
-            <li className="menu">home</li>
-            <li className="menu">about</li>
-            <li className="menu">phone</li>
-            <li className="menu">contact</li>
+            <li className="menu uppercase">home</li>
+            <li className="menu uppercase">about</li>
+            <li className="menu uppercase">skills</li>
+            <li className="menu uppercase">contact</li>
           </ul>
           {/* responsiv nav */}
           <ul
@@ -36,7 +36,7 @@ const Navbar = () => {
           >
             <li className="p-5">home</li>
             <li className="p-5">about</li>
-            <li className="p-5">phone</li>
+            <li className="p-5">skills</li>
             <li className="p-5">contact</li>
           </ul>
         </nav>
