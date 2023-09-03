@@ -12,7 +12,7 @@ const Contact = () => {
   };
   return (
     <>
-      <div className=" h-screen w-full flex justify-center pt-14">
+      <div className="h-[500px] w-full flex justify-center pt-14">
         <div className=" w-[100%] md:w-[50%] h-[50vh] rounded-md ">
           <form
             onSubmit={handleSignUp}
@@ -46,7 +46,7 @@ const Contact = () => {
               value={inputs.password}
               placeholder="Enter your password"
             />
-            <button className="bg-yellow-400 rounded-md  uppercase text-clack w-[15%] mx-auto hover:border-2 p-4">
+            <button className="bg-yellow-400 rounded-md  uppercase text-clack w-[25%]md:w-[15%] mx-auto hover:border-2 p-4">
               Sin up
             </button>
           </form>

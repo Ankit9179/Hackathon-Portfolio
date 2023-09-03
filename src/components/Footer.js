@@ -4,7 +4,7 @@ import { AiOutlineLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube } fr
 const Footer = () => {
     return (
         <>
-            <div className='grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4 text-white'>
+            <div className=' grid grid-cols-1 md:grid-cols-3 grid-flow-row gap-4 text-white'>
                 <div className='border-2'>
                     <div className='border-2 text-center p-5 rounded-full cursor-pointer'>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, totam quo impedit itaque labore cupiditate necessitatibus iusto velit nostrum accusantium.

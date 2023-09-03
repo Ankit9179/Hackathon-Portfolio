@@ -31,7 +31,7 @@ const Navbar = () => {
           </ul>
           {/* responsiv nav */}
           <ul
-            className={`duration-500 md:hidden w-full h-screen text-white fixed bg-black top-[90px] 
+            className={`duration-500 md:hidden w-full z-10 h-screen text-white fixed bg-black top-[90px] 
            ${toggle ? `right-[-100%]` : `right-[0]`} `}
           >
             <li className="p-5">home</li>
