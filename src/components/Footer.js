@@ -1,5 +1,6 @@
 import React from 'react'
 import { AiOutlineLinkedin, AiFillGithub, AiOutlineInstagram, AiFillYoutube } from 'react-icons/ai'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -19,10 +20,10 @@ const Footer = () => {
                     <div className='border-2 text-center p-5 rounded-full cursor-pointer'>
                         <div className='m-9 border-2'>
                             <div className='flex gap-8 text-2xl mb-2 justify-center'>
-                                <AiOutlineLinkedin />
-                                <AiFillGithub />
-                                <AiOutlineInstagram />
-                                <AiFillYoutube />
+                                <Link to={"https://www.linkedin.com/in/ankit-rahi-563752258/"}><AiOutlineLinkedin /></Link>
+                                <Link to={"https://github.com/Ankit9179"}><AiFillGithub /></Link>
+                                <Link to={"https://www.instagram.com/ak_vampire12/?next=%2F"}><AiOutlineInstagram /></Link>
+                                <Link to={"https://www.youtube.com/channel/UCK9s88prVP4BQoPuhXzjs6A"}><AiFillYoutube /></Link>
                             </div>
                             <p>&copy; Copyright All right reserved.</p>
                         </div>

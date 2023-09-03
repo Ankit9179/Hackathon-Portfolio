@@ -1,5 +1,7 @@
 import React from "react";
 import homepng from "../images/home.png";
+import { Link } from "react-router-dom";
+import Resume from "../images/resume.pdf";
 
 const Home = () => {
   return (
@@ -16,9 +18,17 @@ const Home = () => {
           </p>
           <div className="flex gap-5">
             <button className="bg-yellow-400 p-2 text-1xl rounded-2xl px-5 cursor-pointer text-black font-bold">
-              linkedin
+              <Link to={"https://www.linkedin.com/in/ankit-rahi-563752258/"}>
+                linkedin
+              </Link>
             </button>
-            <p className="cursor-pointer">Download cv</p>
+            <a
+              className="cursor-pointer"
+              href={Resume}
+              download={"Ankit resume.pdf"}
+            >
+              Download cv
+            </a>
           </div>
         </div>
         <div className="right border-2 w-[50">
