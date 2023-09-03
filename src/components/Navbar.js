@@ -9,7 +9,7 @@ const Navbar = () => {
   return (
     <>
       <div className="">
-        <nav className="flex justify-between items-center border-2 p-3 ">
+        <nav className="flex justify-between items-center  p-3 ">
           <h1 className="text-3xl text-white font-bold">
             <Link to={"https://github.com/Ankit9179"}>Portfolio</Link>
           </h1>
@@ -46,10 +46,42 @@ const Navbar = () => {
             className={`duration-500 md:hidden w-full z-10 h-screen text-white fixed bg-black top-[90px] 
            ${toggle ? `right-[-100%]` : `right-[0]`} `}
           >
-            <li className="p-5">home</li>
-            <li className="p-5">about</li>
-            <li className="p-5">skills</li>
-            <li className="p-5">contact</li>
+            <li
+              className="menu uppercase p-11 text-3xl"
+              onClick={() => {
+                navigate("/");
+                setToggle(!toggle);
+              }}
+            >
+              home
+            </li>
+            <li
+              className="menu uppercase p-11 text-3xl"
+              onClick={() => {
+                navigate("/about");
+                setToggle(!toggle);
+              }}
+            >
+              about
+            </li>
+            <li
+              className="menu uppercase p-11 text-3xl"
+              onClick={() => {
+                navigate("/skills");
+                setToggle(!toggle);
+              }}
+            >
+              skills
+            </li>
+            <li
+              className="menu uppercase p-11 text-3xl"
+              onClick={() => {
+                navigate("/contact");
+                setToggle(!toggle);
+              }}
+            >
+              contact
+            </li>
           </ul>
         </nav>
       </div>

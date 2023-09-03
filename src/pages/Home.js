@@ -6,8 +6,8 @@ import Resume from "../images/resume.pdf";
 const Home = () => {
   return (
     <>
-      <div className="block md:flex border-2 p-12 w-full justify-center">
-        <div className="w-[100%] md:border-2 text-white text-start  flex-col my-auto w-[50%]">
+      <div className="block md:flex  p-12 w-full justify-center">
+        <div className="w-[100%] md:w-[50%] text-white text-start  flex-col my-auto ">
           <h1 className="text-5xl font-bold mb-4">
             This is <br /> my hackathon portfolio website{" "}
           </h1>
@@ -31,7 +31,7 @@ const Home = () => {
             </a>
           </div>
         </div>
-        <div className="right border-2 w-[50">
+        <div className="right  w-[50">
           <img className="w-[500px]" src={homepng} alt="png" />
         </div>
       </div>

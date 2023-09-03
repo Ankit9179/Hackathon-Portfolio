@@ -5,11 +5,11 @@ const About = () => {
   return (
     <div>
       <>
-        <div className="block md:flex border-2 p-12 w-full justify-center">
-          <div className="right border-2 w-[50">
+        <div className="block md:flex  p-12 w-full justify-center">
+          <div className="right  w-[50">
             <img className="w-[500px]" src={aboutpng} alt="png" />
           </div>
-          <div className="w-[100%] md:border-2 text-white text-center  flex-col my-auto">
+          <div className="w-[100%] md: text-white text-center  flex-col my-auto">
             <h1 className="text-5xl font-bold mb-4">About me</h1>
             <p className="mb-4 leading-normal">
               lorem5 lorem3 Lorem Lorem ipsum dolor sit amet consectetur
