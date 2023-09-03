@@ -11,21 +11,14 @@ const About = () => {
           </div>
           <div className="w-[100%] md: text-white text-center  flex-col my-auto">
             <h1 className="text-5xl font-bold mb-4">About me</h1>
-            <p className="mb-4 leading-normal">
-              lorem5 lorem3 Lorem Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Optio lorem5 , delectus? ipsum dolor sit amet
-              consectetur adipisicing lorem3 Lorem Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Optio lorem5 , delectus? ipsum dolor
-              sit amet consectetur adipisicing lorem3 Lorem Lorem ipsum dolor
-              sit amet consectetur adipisicing elit. Optio lorem5 , delectus?
-              ipsum dolor sit amet consectetur adipisicing elit. Dicta quaerat
-              maiores nisi quod similique. Nulla. consectetur adipisicing lorem3
-              Lorem Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Optio lorem5 , delectus? ipsum dolor sit amet consectetur
-              adipisicing lorem3 Lorem Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Optio lorem5 , delectus? ipsum dolor sit amet
-              consectetur adipisicing elit. Dicta quaerat maiores nisi quod
-              similique. Nulla.
+            <p className="mb-4 leading-loose tracking-wide">
+              Hello everyone, my name is ankit i don't have any type of
+              technical degree because i have done my bachelor's in B.sc
+              (Mathematics). but i know very well about web development.nowadays
+              i'm learning MERN stack from youtube.if i talk about my skills, so
+              i have knowledge about these fields html , css , Javascript React
+              js library , Bootstrap framework for frontend , i use Node js and
+              MongoDB database for creating server .
             </p>
           </div>
         </div>
